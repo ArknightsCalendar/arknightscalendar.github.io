@@ -71,7 +71,7 @@
 
 	// Expand all overlapping divs on hover.
 	function overlapHover() {
-		const targets = document.querySelectorAll(`#${$activePage} .${event}${rerun ? ".rerun" : ":not(.rerun)"}`);
+		const targets = document.querySelectorAll(`#${$activePage} .event_${event}${rerun ? ".rerun" : ":not(.rerun)"}`);
 
 		for (const div of targets) {
 			const classes = div.classList;
@@ -87,7 +87,7 @@
 <!-- svelte-ignore a11y-no-static-element-interactions -->
 <div
 	bind:this={element}
-	class={event}
+	class="event_{event}"
 	class:rerun
 	class:start={order === "start"}
 	class:end={order === "end"}
@@ -100,6 +100,7 @@
 	on:mouseenter={addTitle}
 	on:mouseenter={overlapHover}
 	on:mouseleave={overlapHover}
+
 	on:mousemove={showTooltip}
 	on:mouseleave={hideTooltip}
 	on:touchmove={showTooltip}

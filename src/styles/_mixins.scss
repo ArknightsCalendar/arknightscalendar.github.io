@@ -2,7 +2,7 @@
 
 // Generates styles to color event overlays.
 @mixin overlay($id, $color) {
-	.overlay .#{$id}, .tooltip-container .#{$id} {
+	.overlay .event_#{$id}, .tooltip-container .event_#{$id} {
 		@if index(#{$color}, ",") {
 			background-image: linear-gradient(90deg, $color);
 		} @else {
