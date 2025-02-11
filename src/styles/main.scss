@@ -404,6 +404,37 @@ h1 {
 	}
 }
 
+// Tooltip
+.tooltip {
+	opacity: 0;
+	position: absolute;
+	z-index: -1;
+	width: auto;
+	height: auto;
+	background-color: #000;
+	color: #fff;
+	padding: 5px;
+	border-radius: 5px;
+	display: flex;
+	gap: 10px;
+}
+
+.tooltip-item {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 4px;
+}
+
+.tooltip-item-icon {
+	width: clamp(32px, 10vw, 64px);
+	height: clamp(32px, 10vw, 64px);
+}
+
+.tooltip-item-stage {
+	font-size: clamp(10px, 2.5vw, 12px);
+	color: #000;
+}
 
 // GitHub link
 aside {

@@ -3,8 +3,10 @@
 	import Button from "./components/Button.svelte";
 	import Schedule from "./components/Schedule.svelte";
 	import pages from "./data/pages.json";
+	import mats from "./data/mats.json";
 	import { activePage } from "./stores/store.js";
 	import { onMount } from "svelte";
+	import Tooltip from "./components/Tooltip.svelte";
 
 	$activePage = pages[0].id;
 
@@ -51,4 +53,9 @@
 	{#each pages as page}
 		<Schedule {page}/>
 	{/each}
+	<div class="tooltip-container">
+		{#each Object.entries(mats) as [event, items]}
+			<Tooltip {event} {items}/>
+		{/each}
+	</div>
 </main>
