@@ -14,8 +14,8 @@
 	const text = `${names[event]}${rerun ? " (Rerun)" : ""}`;
 
 	function getPermalink() {
-		const copyUrl = url + `?schedule=${$activePage}&event=${event}${rerun ? ".rerun" : ""}`;
-		const targets = document.querySelectorAll(`#${$activePage} .${event}${rerun ? ".rerun" : ":not(.rerun)"}`);
+		const copyUrl = url + `?schedule=${$activePage}&event=event_${event}${rerun ? ".rerun" : ""}`;
+		const targets = document.querySelectorAll(`#${$activePage} .event_${event}${rerun ? ".rerun" : ":not(.rerun)"}`);
 
 		// Copy to clipboard.
 		navigator.clipboard.writeText(copyUrl);
@@ -33,7 +33,7 @@
 
 		if ($activePage !== "future") return;
 
-		const tooltip = document.querySelector(`.${event}-tooltip`);
+		const tooltip = document.querySelector(`.event_${event}-tooltip`);
 		if (!tooltip) return;
 
 		const mouseX = mouseTouchEvent.touches ? mouseTouchEvent.touches[0].clientX : mouseTouchEvent.clientX;
@@ -50,7 +50,7 @@
 	};
 
 	function hideTooltip() {
-		const tooltip = document.querySelector(`.${event}-tooltip`);
+		const tooltip = document.querySelector(`.event_${event}-tooltip`);
 		if (!tooltip) return;
 
 		tooltip.style.left = "0px";
