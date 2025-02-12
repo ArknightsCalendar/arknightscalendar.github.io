@@ -257,11 +257,14 @@
 		if (["cn", "en"].includes(page.id)) {
 			const icec = document.querySelectorAll(`#${page.id} .event_act20side.end`)[0]; // endless carnival
 			const cc10 = document.querySelectorAll(`#${page.id} .event_rune_season_10_1`); // cc10
+			const act40side = document.querySelectorAll(`#${page.id} .event_act40side.end`); // such is the joy of our reunion
 			
 			if (page.id === "cn") {
 				icec.style.cssText = "--grid-row:5; --grid-column:1 / span 10;";
 				cc10[0].classList.add("bottom");
 				cc10[1].classList.add("bottom");
+				act40side[0].classList.remove("top");
+				act40side[0].classList.add("bottom");
 			};
 
 			if (page.id === "en") {
