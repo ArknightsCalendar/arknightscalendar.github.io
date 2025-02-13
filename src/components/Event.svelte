@@ -31,8 +31,6 @@
 
 	function showTooltip(mouseTouchEvent) {
 
-		if ($activePage !== "future") return;
-
 		const tooltip = document.querySelector(`.event_${event}-tooltip`);
 		if (!tooltip) return;
 
