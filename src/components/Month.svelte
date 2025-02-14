@@ -16,16 +16,32 @@
 	const events = eventDivs?.[y]?.[m];
 	const episodes = episodeDivs?.[y]?.[m];
 	const is = isDivs?.[y]?.[m];
+	const today = new Date();
 </script>
 
 <section class:no-margin={sundayStart}>
 	<h1>{monthName} <span>{y}</span></h1>
 	<div class="calendar">
 		{#each Array(days) as _, index}
+			{				
+				@const is_today = (
+					today.getDate() === index+1 &&
+					today.getMonth() === date.getMonth() &&
+					today.getFullYear() === date.getFullYear()
+				)
+			}
 			{#if (index === 0 && !sundayStart)}
-				<div style="--grid-start:{firstDay + 1}"></div>
+				{#if is_today}	
+					<div style="--grid-start:{firstDay + 1}" data-today={is_today}></div>
+				{:else}
+					<div style="--grid-start:{firstDay + 1}"></div>
+				{/if}
 			{:else}
-				<div></div>
+				{#if is_today}	
+					<div data-today={is_today}></div>
+				{:else}
+					<div></div>
+				{/if}
 			{/if}
 		{/each}
 	</div>
