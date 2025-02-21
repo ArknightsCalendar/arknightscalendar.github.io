@@ -139,7 +139,7 @@
 		"2025": [
 			{ "start": [ 1, 22], "duration": 21, "event": "act40side" },
 			{ "start": [ 2,  5], "duration": 14, "event": "crisis_v2_season_3_1" },
-			{ "start": [ 2, 14], "duration":  7, "event": "sys" }
+			{ "start": [ 2, 14], "duration":  7, "event": "act18mini" }
 		]
 	},
 	"en": {
