@@ -271,6 +271,11 @@ h1 {
 			padding: 0.15em 0.65em;
 		}
 
+		
+		&[data-today="true"] {
+			color: #00ffff;
+		}
+
 		@media (max-width: $bar-bottom) { font-size: 0.6rem }
 	}
 }

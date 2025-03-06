@@ -255,13 +255,16 @@
 	// "Temporary" (permanent) fix for events not overlapping correctly
 	onMount(() => {
 		if (["cn", "en"].includes(page.id)) {
-			const icec = document.querySelectorAll(`#${page.id} .icec.end`)[0];
-			const cc10 = document.querySelectorAll(`#${page.id} .cc10`);
-
+			const icec = document.querySelectorAll(`#${page.id} .event_act20side.end`)[0]; // endless carnival
+			const cc10 = document.querySelectorAll(`#${page.id} .event_rune_season_10_1`); // cc10
+			const act40side = document.querySelectorAll(`#${page.id} .event_act40side.end`); // such is the joy of our reunion
+			
 			if (page.id === "cn") {
 				icec.style.cssText = "--grid-row:5; --grid-column:1 / span 10;";
 				cc10[0].classList.add("bottom");
 				cc10[1].classList.add("bottom");
+				act40side[0].classList.remove("top");
+				act40side[0].classList.add("bottom");
 			};
 
 			if (page.id === "en") {
@@ -270,9 +273,9 @@
 				cc10[0].style.cssText = "--grid-row:1; --grid-column:span 3 / -1;";
 			};
 
-			const ra1 = document.querySelectorAll(`#${page.id} .ra1`);
-			const ga = document.querySelectorAll(`#${page.id} .ga.rerun`);
-			const cc12 = document.querySelectorAll(`#${page.id} .cc12`);
+			const ra1 = document.querySelectorAll(`#${page.id} .event_act1sandbox`); // reclamation algorithm
+			const ga = document.querySelectorAll(`#${page.id} .event_act16side.rerun`); // guide ahead
+			const cc12 = document.querySelectorAll(`#${page.id} .event_rune_season_12_1`);
 
 			if (page.id === "cn") {
 				ra1[5].classList.remove("top")
