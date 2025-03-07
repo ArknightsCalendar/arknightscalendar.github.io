@@ -13,7 +13,11 @@
 			{ "start": [ 6, 18], "duration":  10, "event": "act30side", "rerun": true},
 			{ "start": [ 6, 29], "duration":  14, "event": "act1arcade" },
 			{ "start": [ 7, 14], "duration":  14, "event": "act2collection" },
-			{ "start": [ 7, 27], "duration":  21, "event": "act40side" }
+			{ "start": [ 7, 27], "duration":  21, "event": "act40side" },
+			{ "start": [ 8, 11], "duration":  14, "event": "crisis_v2_season_3_1" },
+			{ "start": [ 8, 24], "duration":   7, "event": "act18mini" },
+			{ "start": [ 8, 31], "duration":  10, "event": "act31side", "rerun": true},
+			{ "start": [ 9, 10], "duration":  14, "event": "act41side" }
 		]
 	},
 	"cn": {
@@ -149,7 +153,9 @@
 			{ "start": [ 1,  9], "duration": 14, "event": "act2collection" },
 			{ "start": [ 1, 22], "duration": 21, "event": "act40side" },
 			{ "start": [ 2,  5], "duration": 14, "event": "crisis_v2_season_3_1" },
-			{ "start": [ 2, 14], "duration":  7, "event": "act18mini" }
+			{ "start": [ 2, 14], "duration":  7, "event": "act18mini" },
+			{ "start": [ 2, 24], "duration": 10, "event": "act31side", "rerun": true},
+			{ "start": [ 3,  7], "duration": 14, "event": "act41side" }
 		]
 	},
 	"en": {

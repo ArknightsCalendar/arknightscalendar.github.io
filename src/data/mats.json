@@ -1,214 +1,217 @@
 {
-	"act40side": {
-		"OR-7": "MTL_SL_BOSS3",
-		"OR-8": "MTL_SL_IAM3",
-		"OR-9": "MTL_SL_ZY"
-	},
-	"act39side": {
-		"EP-6": "MTL_SL_STRG3",
-		"EP-7": "MTL_SL_KETONE3",
-		"EP-8": "MTL_SL_PG1"
-	},
-	"act38side": {
-		"PV-8": "MTL_SL_MANGANESE1",
-		"PV-9": "MTL_SL_RMA7012",
-		"PV-10": "MTL_SL_CCF"
-	},
-	"act37side": {
-		"GO-7": "MTL_SL_G3",
-		"GO-8": "MTL_SL_PGEL3",
-		"GO-9": "MTL_SL_SS"
-	},
-	"act36side": {
-		"DT-6": "MTL_SL_RUSH3",
-		"DT-7": "MTL_SL_IAM3",
-		"DT-8": "MTL_SL_XW"
-	},
-	"act35side": {
-		"AS-7": "MTL_SL_IRON3",
-		"AS-8": "MTL_SL_PG1",
-		"AS-9": "MTL_SL_HT"
-	},
-	"act34side": {
-		"BP-5": "MTL_SL_OC3",
-		"BP-6": "MTL_SL_STRG3",
-		"BP-7": "MTL_SL_ALCOHOL1"
-	},
-	"act33side": {
-		"BB-6": "MTL_SL_G3",
-		"BB-7": "MTL_SL_IRON3",
-		"BB-8": "MTL_SL_PGEL3"
-	},
-	"act32side": {
-		"CR-6": "MTL_SL_RUSH3",
-		"CR-7": "MTL_SL_IAM3",
-		"CR-8": "MTL_SL_BOSS3"
-	},
-	"act31side": {
-		"HS-7": "MTL_SL_G3",
-		"HS-8": "MTL_SL_ALCOHOL1",
-		"HS-9": "MTL_SL_RMA7012"
-	},
-	"act30side": {
-		"RS-6": "MTL_SL_RUSH3",
-		"RS-7": "MTL_SL_MANGANESE1",
-		"RS-8": "MTL_SL_OC3"
-	},
-	"act29side": {
-		"ZT-7": "MTL_SL_IRON3",
-		"ZT-8": "MTL_SL_BOSS3",
-		"ZT-9": "MTL_SL_ALCOHOL1"
-	},
-	"act28side": {
-		"CV-6": "MTL_SL_STRG3",
-		"CV-7": "MTL_SL_PG1",
-		"CV-8": "MTL_SL_ZY"
-	},
-	"act27side": {
-		"SL-6": "MTL_SL_KETONE3",
-		"SL-7": "MTL_SL_OC3",
-		"SL-8": "MTL_SL_MANGANESE1"
-	},
-	"act26side": {
-		"HE-6": "MTL_SL_G3",
-		"HE-7": "MTL_SL_PGEL3",
-		"HE-8": "MTL_SL_RMA7012"
-	},
-	"act25side": {
-		"CW-8": "MTL_SL_KETONE3",
-		"CW-9": "MTL_SL_SS",
-		"CW-10": "MTL_SL_IAM3"
-	},
-	"act23side": {
-		"WB-7": "MTL_SL_KETONE3",
-		"WB-8": "MTL_SL_MANGANESE1",
-		"WB-9": "MTL_SL_OC3"
-	},
-	"act22side": {
-		"FC-5": "MTL_SL_STRG3",
-		"FC-6": "MTL_SL_IRON3",
-		"FC-7": "MTL_SL_SS"
-	},
-	"act21side": {
-		"IS-8": "MTL_SL_G3",
-		"IS-9": "MTL_SL_CCF",
-		"IS-10": "MTL_SL_IAM3"
-	},
-	"act20side": {
-		"IC-7": "MTL_SL_KETONE3",
-		"IC-8": "MTL_SL_PGEL3",
-		"IC-9": "MTL_SL_RMA7012"
-	},
-	"act19side": {
-		"DV-6": "MTL_SL_RUSH3",
-		"DV-7": "MTL_SL_ALCOHOL1",
-		"DV-8": "MTL_SL_IAM3",
-		"DV-S-1": "MTL_SL_KETONE4",
-		"DV-S-2": "mod_unlock_token"
-	},
-	"act18side": {
-		"LE-5": "MTL_SL_STRG3",
-		"LE-6": "MTL_SL_PG1",
-		"LE-7": "MTL_SL_SS"
-	},
-	"act17side": {
-		"SN-8": "MTL_SL_IRON3",
-		"SN-9": "MTL_SL_MANGANESE1",
-		"SN-10": "MTL_SL_CCF"
-	},
-	"act16side": {
-		"GA-6": "MTL_SL_STRG3",
-		"GA-7": "MTL_SL_ALCOHOL1",
-		"GA-8": "MTL_SL_PGEL3"
-	},
-	"act15side": {
-		"IW-6": "MTL_SL_BOSS3",
-		"IW-7": "MTL_SL_G3",
-		"IW-8": "MTL_SL_RMA7012"
-	},
-	"act14side": {
-		"BI-6": "MTL_SL_IAM3",
-		"BI-7": "MTL_SL_RUSH3",
-		"BI-8": "MTL_SL_PG1"
-	},
-	"act13side": {
-		"NL-8": "MTL_SL_STRG3",
-		"NL-9": "MTL_SL_OC3",
-		"NL-10": "MTL_SL_ALCOHOL1"
-	},
-	"act18d3": {
-		"SV-7": "MTL_SL_G3",
-		"SV-8": "MTL_SL_OC3",
-		"SV-9": "MTL_SL_BOSS3"
-	},
-	"act18d0": {
-		"WD-6": "MTL_SL_RUSH3",
-		"WD-7": "MTL_SL_KETONE3",
-		"WD-8": "MTL_SL_RMA7012"
-	},
-	"act17d0": {
-		"OD-7": "MTL_SL_MANGANESE1",
-		"OD-8": "MTL_SL_PG1"
-	},
-	"act16d5": {
-		"WR-8": "MTL_SL_IAM3",
-		"WR-9": "MTL_SL_RUSH3",
-		"WR-10": "MTL_SL_G3"
-	},
-	"act15d5": {
-		"BH-6": "MTL_SL_ALCOHOL1",
-		"BH-7": "MTL_SL_RUSH3",
-		"BH-8": "MTL_SL_RMA7012"
-	},
-	"act15d0": {
-		"MB-6": "MTL_SL_STRG3",
-		"MB-7": "MTL_SL_KETONE3",
-		"MB-8": "MTL_SL_IRON3"
-	},
-	"act13d5": {
-		"MN-6": "MTL_SL_PGEL3",
-		"MN-7": "MTL_SL_RUSH3",
-		"MN-8": "MTL_SL_MANGANESE1"
-	},
-	"act13d0": {
-		"FA-6": "MTL_SL_ALCOHOL1",
-		"FA-7": "MTL_SL_KETONE3",
-		"FA-8": "MTL_SL_IRON3"
-	},
-	"act12d0": {
-		"RI-6": "MTL_SL_G3",
-		"RI-7": "MTL_SL_STRG3",
-		"RI-8": "MTL_SL_RMA7012"
-	},
-	"act11d0": {
-		"TW-6": "MTL_SL_IAM3",
-		"TW-7": "MTL_SL_KETONE3",
-		"TW-8": "MTL_SL_PG1"
-	},
-	"act10d5": {
-		"SV-5": "MTL_SL_RUSH3",
-		"SV-6": "MTL_SL_IRON3",
-		"SV-7": "MTL_SL_PGEL3"
-	},
-	"act9d0": {
-		"DM-6": "MTL_SL_STRG3",
-		"DM-7": "MTL_SL_ALCOHOL1",
-		"DM-8": "MTL_SL_IRON3"
-	},
-	"act7d5": {
-		"SA-5": "MTL_SL_ALCOHOL1",
-		"SA-6": "MTL_SL_IAM3"
-	},
-	"act6d5": {
-		"AF-6": "MTL_SL_KETONE3",
-		"AF-7": "MTL_SL_ALCOHOL1",
-		"AF-8": "MTL_SL_PG1"
-	},
-	"act4d0": {
-		"SW-EV-5": "MTL_SL_RUSH3"
-	},
-	"a001": {
-		"GT-5": "MTL_SL_ALCOHOL1",
-		"GT-6": "MTL_SL_PG1"
-	}
+    "act41side": {
+        "EA-6": "MTL_SL_PG1",
+        "EA-7": "MTL_SL_SS",
+        "EA-8": "MTL_SL_XW"
+    },
+    "act40side": {
+        "OR-7": "MTL_SL_BOSS3",
+        "OR-8": "MTL_SL_IAM3",
+        "OR-9": "MTL_SL_ZY"
+    },
+    "act39side": {
+        "EP-6": "MTL_SL_STRG3",
+        "EP-7": "MTL_SL_KETONE3",
+        "EP-8": "MTL_SL_PG1"
+    },
+    "act38side": {
+        "PV-8": "MTL_SL_MANGANESE1",
+        "PV-9": "MTL_SL_RMA7012",
+        "PV-10": "MTL_SL_CCF"
+    },
+    "act37side": {
+        "GO-7": "MTL_SL_G3",
+        "GO-8": "MTL_SL_PGEL3",
+        "GO-9": "MTL_SL_SS"
+    },
+    "act36side": {
+        "DT-6": "MTL_SL_RUSH3",
+        "DT-7": "MTL_SL_IAM3",
+        "DT-8": "MTL_SL_XW"
+    },
+    "act35side": {
+        "AS-7": "MTL_SL_IRON3",
+        "AS-8": "MTL_SL_PG1",
+        "AS-9": "MTL_SL_HT"
+    },
+    "act34side": {
+        "BP-5": "MTL_SL_OC3",
+        "BP-6": "MTL_SL_STRG3",
+        "BP-7": "MTL_SL_ALCOHOL1"
+    },
+    "act33side": {
+        "BB-6": "MTL_SL_G3",
+        "BB-7": "MTL_SL_IRON3",
+        "BB-8": "MTL_SL_PGEL3"
+    },
+    "act32side": {
+        "CR-6": "MTL_SL_RUSH3",
+        "CR-7": "MTL_SL_IAM3",
+        "CR-8": "MTL_SL_BOSS3"
+    },
+    "act31side": {
+        "HS-7": "MTL_SL_G3",
+        "HS-8": "MTL_SL_ALCOHOL1",
+        "HS-9": "MTL_SL_RMA7012"
+    },
+    "act30side": {
+        "RS-6": "MTL_SL_RUSH3",
+        "RS-7": "MTL_SL_MANGANESE1",
+        "RS-8": "MTL_SL_OC3"
+    },
+    "act29side": {
+        "ZT-7": "MTL_SL_IRON3",
+        "ZT-8": "MTL_SL_BOSS3",
+        "ZT-9": "MTL_SL_ALCOHOL1"
+    },
+    "act28side": {
+        "CV-6": "MTL_SL_STRG3",
+        "CV-7": "MTL_SL_PG1",
+        "CV-8": "MTL_SL_ZY"
+    },
+    "act27side": {
+        "SL-6": "MTL_SL_KETONE3",
+        "SL-7": "MTL_SL_OC3",
+        "SL-8": "MTL_SL_MANGANESE1"
+    },
+    "act26side": {
+        "HE-6": "MTL_SL_G3",
+        "HE-7": "MTL_SL_PGEL3",
+        "HE-8": "MTL_SL_RMA7012"
+    },
+    "act25side": {
+        "CW-8": "MTL_SL_KETONE3",
+        "CW-9": "MTL_SL_SS",
+        "CW-10": "MTL_SL_IAM3"
+    },
+    "act23side": {
+        "WB-7": "MTL_SL_KETONE3",
+        "WB-8": "MTL_SL_MANGANESE1",
+        "WB-9": "MTL_SL_OC3"
+    },
+    "act22side": {
+        "FC-5": "MTL_SL_STRG3",
+        "FC-6": "MTL_SL_IRON3",
+        "FC-7": "MTL_SL_SS"
+    },
+    "act21side": {
+        "IS-8": "MTL_SL_G3",
+        "IS-9": "MTL_SL_CCF",
+        "IS-10": "MTL_SL_IAM3"
+    },
+    "act20side": {
+        "IC-7": "MTL_SL_KETONE3",
+        "IC-8": "MTL_SL_PGEL3",
+        "IC-9": "MTL_SL_RMA7012"
+    },
+    "act19side": {
+        "DV-6": "MTL_SL_RUSH3",
+        "DV-7": "MTL_SL_ALCOHOL1",
+        "DV-8": "MTL_SL_IAM3"
+    },
+    "act18side": {
+        "LE-5": "MTL_SL_STRG3",
+        "LE-6": "MTL_SL_PG1",
+        "LE-7": "MTL_SL_SS"
+    },
+    "act17side": {
+        "SN-8": "MTL_SL_IRON3",
+        "SN-9": "MTL_SL_MANGANESE1",
+        "SN-10": "MTL_SL_CCF"
+    },
+    "act16side": {
+        "GA-6": "MTL_SL_STRG3",
+        "GA-7": "MTL_SL_ALCOHOL1",
+        "GA-8": "MTL_SL_PGEL3"
+    },
+    "act15side": {
+        "IW-6": "MTL_SL_BOSS3",
+        "IW-7": "MTL_SL_G3",
+        "IW-8": "MTL_SL_RMA7012"
+    },
+    "act14side": {
+        "BI-6": "MTL_SL_IAM3",
+        "BI-7": "MTL_SL_RUSH3",
+        "BI-8": "MTL_SL_PG1"
+    },
+    "act13side": {
+        "NL-8": "MTL_SL_STRG3",
+        "NL-9": "MTL_SL_OC3",
+        "NL-10": "MTL_SL_ALCOHOL1"
+    },
+    "act18d3": {
+        "SV-7": "MTL_SL_G3",
+        "SV-8": "MTL_SL_OC3",
+        "SV-9": "MTL_SL_BOSS3"
+    },
+    "act18d0": {
+        "WD-6": "MTL_SL_RUSH3",
+        "WD-7": "MTL_SL_KETONE3",
+        "WD-8": "MTL_SL_RMA7012"
+    },
+    "act17d0": {
+        "OD-7": "MTL_SL_MANGANESE1",
+        "OD-8": "MTL_SL_PG1"
+    },
+    "act16d5": {
+        "WR-8": "MTL_SL_IAM3",
+        "WR-9": "MTL_SL_RUSH3",
+        "WR-10": "MTL_SL_G3"
+    },
+    "act15d5": {
+        "BH-6": "MTL_SL_ALCOHOL1",
+        "BH-7": "MTL_SL_RUSH3",
+        "BH-8": "MTL_SL_RMA7012"
+    },
+    "act15d0": {
+        "MB-6": "MTL_SL_STRG3",
+        "MB-7": "MTL_SL_KETONE3",
+        "MB-8": "MTL_SL_IRON3"
+    },
+    "act13d5": {
+        "MN-6": "MTL_SL_PGEL3",
+        "MN-7": "MTL_SL_RUSH3",
+        "MN-8": "MTL_SL_MANGANESE1"
+    },
+    "act13d0": {
+        "FA-6": "MTL_SL_ALCOHOL1",
+        "FA-7": "MTL_SL_KETONE3",
+        "FA-8": "MTL_SL_IRON3"
+    },
+    "act12d0": {
+        "RI-6": "MTL_SL_G3",
+        "RI-7": "MTL_SL_STRG3",
+        "RI-8": "MTL_SL_RMA7012"
+    },
+    "act11d0": {
+        "TW-6": "MTL_SL_IAM3",
+        "TW-7": "MTL_SL_KETONE3",
+        "TW-8": "MTL_SL_PG1"
+    },
+    "act10d5": {
+        "SV-5": "MTL_SL_RUSH3",
+        "SV-6": "MTL_SL_IRON3",
+        "SV-7": "MTL_SL_PGEL3"
+    },
+    "act9d0": {
+        "DM-6": "MTL_SL_STRG3",
+        "DM-7": "MTL_SL_ALCOHOL1",
+        "DM-8": "MTL_SL_IRON3"
+    },
+    "act7d5": {
+        "SA-5": "MTL_SL_ALCOHOL1",
+        "SA-6": "MTL_SL_IAM3"
+    },
+    "act6d5": {
+        "AF-6": "MTL_SL_KETONE3",
+        "AF-7": "MTL_SL_ALCOHOL1",
+        "AF-8": "MTL_SL_PG1"
+    },
+    "act4d0": {
+        "SW-EV-5": "MTL_SL_RUSH3"
+    },
+    "a001": {
+        "GT-5": "MTL_SL_ALCOHOL1",
+        "GT-6": "MTL_SL_PG1"
+    }
 }
