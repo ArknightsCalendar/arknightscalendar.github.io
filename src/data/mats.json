@@ -1,4 +1,9 @@
 {
+    "act42side": {
+        "MT-8": "MTL_SL_KETONE3",
+        "MT-9": "MTL_SL_PG1",
+        "MT-10": "MTL_SL_CCF"
+    },
     "act41side": {
         "EA-6": "MTL_SL_PG1",
         "EA-7": "MTL_SL_SS",
