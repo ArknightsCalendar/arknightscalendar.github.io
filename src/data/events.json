@@ -155,7 +155,9 @@
 			{ "start": [ 3,  7], "duration": 14, "event": "act41side" },
 			{ "start": [ 3, 20], "duration": 21, "event": "act1multi" },
 			{ "start": [ 4, 21], "duration": 10, "event": "act33side", "rerun": true},
-			{ "start": [ 5,  1], "duration": 21, "event": "act42side" }
+			{ "start": [ 5,  1], "duration": 21, "event": "act42side" },
+			{ "start": [ 5, 15], "duration": 21, "event": "act1break" },
+			{ "start": [ 6,  5], "duration": 14, "event": "act43side" }
 		]
 	},
 	"en": {
