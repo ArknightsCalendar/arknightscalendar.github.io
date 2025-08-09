@@ -1,20 +1,25 @@
 {
 	"future": {
 		"2025": [
-			{ "start": [ 6,  5], "duration":  14, "event": "act39side" },
-			{ "start": [ 6, 12], "duration":  14, "event": "act1arcade" },
-			{ "start": [ 6, 20], "duration":  10, "event": "act30side", "rerun": true},
-			{ "start": [ 7,  3], "duration":  10, "event": "act31side", "rerun": true},
-			{ "start": [ 7, 14], "duration":  14, "event": "act2collection" },
 			{ "start": [ 7, 17], "duration":  21, "event": "act40side" },
 			{ "start": [ 8,  7], "duration":   7, "event": "act18mini" },
+			{ "start": [ 8,  7], "duration":  14, "event": "act3collection" },
 			{ "start": [ 8, 14], "duration":  14, "event": "crisis_v2_season_3_1" },
-			{ "start": [ 9, 10], "duration":  14, "event": "act41side" },
-			{ "start": [ 9, 22], "duration":  21, "event": "act1multi" },
-			{ "start": [10, 24], "duration":  10, "event": "act33side", "rerun": true},
-			{ "start": [11,  4], "duration":  21, "event": "act42side" },
-			{ "start": [11,  19], "duration":  21, "event": "act1break" },
-			{ "start": [12,  11], "duration":  14, "event": "act43side" }
+			{ "start": [ 8, 28], "duration":  14, "event": "act41side" },
+			{ "start": [ 9,  4], "duration":  21, "event": "act1multi" },
+			{ "start": [ 9, 30], "duration":  10, "event": "act33side", "rerun": true},
+			{ "start": [10, 14], "duration":  21, "event": "act42side" },
+			{ "start": [10, 14], "duration":  14, "event": "act4collection" },
+			{ "start": [10, 30], "duration":  21, "event": "act1break" },
+			{ "start": [11, 13], "duration":  14, "event": "act43side" },
+			{ "start": [11,20], "duration":   14, "event": "act5bossrush" },
+			{ "start": [11,27], "duration":   10, "event": "act34side", "rerun": true },
+			{ "start": [12, 4], "duration":   7, "event": "act19mini" }
+			
+
+		],
+		"2026": [
+			{ "start": [ 1,  16], "duration":  21, "event": "act44side" }
 		]
 	},
 	"cn": {
@@ -151,13 +156,20 @@
 			{ "start": [ 1, 22], "duration": 21, "event": "act40side" },
 			{ "start": [ 2,  5], "duration": 14, "event": "crisis_v2_season_3_1" },
 			{ "start": [ 2, 14], "duration":  7, "event": "act18mini" },
+			{ "start": [ 2, 20], "duration": 14, "event": "act3collection" },
 			{ "start": [ 2, 24], "duration": 10, "event": "act31side", "rerun": true},
 			{ "start": [ 3,  7], "duration": 14, "event": "act41side" },
 			{ "start": [ 3, 20], "duration": 21, "event": "act1multi" },
 			{ "start": [ 4, 21], "duration": 10, "event": "act33side", "rerun": true},
 			{ "start": [ 5,  1], "duration": 21, "event": "act42side" },
 			{ "start": [ 5, 15], "duration": 21, "event": "act1break" },
-			{ "start": [ 6,  5], "duration": 14, "event": "act43side" }
+			{ "start": [ 6,  5], "duration": 14, "event": "act43side" },
+			{ "start": [ 6,  5], "duration": 14, "event": "act4collection" },
+			{ "start": [ 6, 19], "duration": 10, "event": "act34side", "rerun": true },
+			{ "start": [ 6, 24], "duration": 14, "event": "act5bossrush" },
+			{ "start": [ 7,  8], "duration":  7, "event": "act19mini" },
+			{ "start": [ 8,  2], "duration": 21, "event": "act44side" },
+			{ "start": [ 8, 14], "duration": 14, "event": "crisis_v2_season_4_1" }
 		]
 	},
 	"en": {
@@ -279,15 +291,23 @@
 			{ "start": [ 1,  3], "duration": 10, "event": "act27side", "rerun": true },
 			{ "start": [ 1, 16], "duration": 21, "event": "act35side" },
 			{ "start": [ 2,  7], "duration":  7, "event": "act17mini" },
-			{ "start": [ 2, 28], "duration":  9, "event": "act28side", "rerun": true },
-			{ "start": [ 2, 28], "duration":  10, "event": "act28side", "rerun": true },
-			{ "start": [ 3, 10], "duration":  14, "event": "act36side" },
-			{ "start": [ 3, 25], "duration":  14, "event": "act1vecb" },
-			{ "start": [ 4,  1], "duration":   7, "event": "act6fun" },
-			{ "start": [ 4,  8], "duration":  14, "event": "act37side" },
-			{ "start": [ 4, 24], "duration":  21, "event": "act38side" },
-			{ "start": [ 5,  8], "duration":  14, "event": "act1vautochess" },
-			{ "start": [ 5, 22], "duration":  10, "event": "act29side", "rerun": true}
+			{ "start": [ 2, 28], "duration": 10, "event": "act28side", "rerun": true },
+			{ "start": [ 3, 10], "duration": 14, "event": "act36side" },
+			{ "start": [ 3, 25], "duration": 14, "event": "act1vecb" },
+			{ "start": [ 4,  1], "duration":  7, "event": "act6fun" },
+			{ "start": [ 4,  8], "duration": 14, "event": "act37side" },
+			{ "start": [ 4, 24], "duration": 21, "event": "act38side" },
+			{ "start": [ 5,  8], "duration": 14, "event": "act1vautochess" },
+			{ "start": [ 5, 22], "duration": 10, "event": "act29side", "rerun": true},
+			{ "start": [ 6,  5], "duration": 14, "event": "act39side" },
+			{ "start": [ 6, 12], "duration": 14, "event": "act1arcade" },
+			{ "start": [ 6, 20], "duration": 10, "event": "act30side", "rerun": true },
+			{ "start": [ 6, 20], "duration": 14, "event": "act2collection" },
+			{ "start": [ 7,  3], "duration": 10, "event": "act31side", "rerun": true},
+			{ "start": [ 7, 17], "duration": 21, "event": "act40side" },
+			{ "start": [ 8,  7], "duration":  7, "event": "act18mini" },
+			{ "start": [ 8,  7], "duration": 14, "event": "act3collection" },
+			{ "start": [ 8, 14], "duration": 14, "event": "crisis_v2_season_3_1" }
 		]
 	},
 	"tw": {

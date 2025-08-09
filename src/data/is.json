@@ -1,12 +1,13 @@
 {
 	"future": [
-		{ "id": "sarkaz",      "date": [2025,  2, 13] }
+		{ "id": "sui",         "date": [2025,  12, 11] }
 	],
 	"cn": [
 		{ "id": "phantom",     "date": [2022,  1,  5] },
 		{ "id": "mizuki",      "date": [2022,  9, 27] },
 		{ "id": "joklumarkar", "date": [2023,  7, 13] },
-		{ "id": "sarkaz",      "date": [2024,  7, 16] }
+		{ "id": "sarkaz",      "date": [2024,  7, 16] },
+		{ "id": "sui",         "date": [2025,  7, 15] }
 	],
 	"en": [
 		{ "id": "phantom",     "date": [2022,  7, 14] },

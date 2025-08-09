@@ -254,7 +254,7 @@
 
 	// "Temporary" (permanent) fix for events not overlapping correctly
 	onMount(() => {
-		if (["cn", "en"].includes(page.id)) {
+		if (["cn", "en", "future"].includes(page.id)) {
 			const icec = document.querySelectorAll(`#${page.id} .event_act20side.end`)[0]; // endless carnival
 			const cc10 = document.querySelectorAll(`#${page.id} .event_rune_season_10_1`); // cc10
 			const act40side = document.querySelectorAll(`#${page.id} .event_act40side.end`); // such is the joy of our reunion
@@ -275,7 +275,7 @@
 
 			const ra1 = document.querySelectorAll(`#${page.id} .event_act1sandbox`); // reclamation algorithm
 			const ga = document.querySelectorAll(`#${page.id} .event_act16side.rerun`); // guide ahead
-			const cc12 = document.querySelectorAll(`#${page.id} .event_rune_season_12_1`);
+			const cc12 = document.querySelectorAll(`#${page.id} .event_rune_season_12_1`); // cc12
 
 			if (page.id === "cn") {
 				ra1[5].classList.remove("top")
@@ -294,6 +294,60 @@
 				for (const part of ga) {
 					part.classList.add("bottom");
 				};
+			};
+
+			const exodus = document.querySelectorAll(`#${page.id} .event_act39side`); // exodus from the pale sea
+
+			if (page.id === "en") {
+				exodus[2].classList.add("bottom");
+			};
+
+			const ccb3 = document.querySelectorAll(`#${page.id} .event_crisis_v2_season_3_1`); // ccb3
+			const act18mini = document.querySelectorAll(`#${page.id} .event_act18mini`); // see you soon
+			const mizuki = document.querySelectorAll(`#${page.id} .event_act3collection`); // is3 recollection
+
+			if (page.id === "cn") {
+				act18mini[1].classList.add("bottom");
+				mizuki[0].classList.remove("bottom");
+				mizuki[0].classList.add("top");
+			};
+
+			if (page.id === "future" || page.id === "en") {
+				act18mini[1].classList.add("bottom");
+				act18mini[1].style.cssText = "--grid-row: 3; --grid-column: 1 / span 9;";
+				ccb3[0].style.cssText = "--grid-row: 3; --grid-column: 10 / span 9;";
+			};
+
+			const vect1 = document.querySelectorAll(`#${page.id} .event_act1break`); // vector breakthrough #1
+			const act = document.querySelectorAll(`#${page.id} .event_act43side`); // act or die
+			const tfn5 = document.querySelectorAll(`#${page.id} .event_act5bossrush`); // TfN #5
+			const pol = document.querySelectorAll(`#${page.id} .event_act34side.rerun`); // PoL rerun
+			const mirage = document.querySelectorAll(`#${page.id} .event_act19mini`); // Fantasy in the mirage
+
+			if (page.id === "future" || page.id === "en") {
+				vect1[0].classList.add("bottom");
+
+				vect1[1].classList.add("bottom");
+
+				act[1].classList.add("bottom");
+				tfn5[0].classList.remove("bottom");
+				tfn5[0].classList.add("top");
+				vect1[3].style.cssText = "--grid-row: 4; --grid-column: 1 / span 9;";
+				tfn5[0].style.cssText = "--grid-row: 4; --grid-column: 10 / span 9;";
+				
+				act[2].classList.add("bottom");
+				act[2].style.cssText = "--grid-row: 5; --grid-column: 1 / span 9;";
+				pol[0].style.cssText = "--grid-row: 5; --grid-column: 10 / span 9;";
+
+				pol[1].classList.add("bottom");
+				mirage[0].classList.remove("bottom");
+				mirage[0].classList.add("top");
+				tfn5[2].style.cssText = "--grid-row: 6; --grid-column: 1 / span 9;";
+				mirage[0].style.cssText = "--grid-row: 1; --grid-column: 10 / span 9;";
+
+				pol[2].classList.add("bottom");
+				mirage[1].classList.remove("bottom");
+				mirage[1].classList.add("top");
 			};
 		};
 
