@@ -1,4 +1,9 @@
 {
+    "act44side": {
+        "AT-6": "MTL_SL_G3",
+        "AT-7": "MTL_SL_KETONE3",
+        "AT-8": "MTL_SL_JH" 
+    },
     "act43side": {
         "AD-6": "MTL_SL_BOSS3",
         "AD-7": "MTL_SL_RUSH3",

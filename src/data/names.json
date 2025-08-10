@@ -26,6 +26,7 @@
 	"crisis_v2_season_1_1": "Contingency Contract #1: Battleplan Pyrolysis",
 	"crisis_v2_season_2_1": "Contingency Contract #2: Battleplan Underdawn",
 	"crisis_v2_season_3_1": "Contingency Contract #3: Battleplan Extinguished Sins",
+	"crisis_v2_season_4_1": "Contingency Contract #4: Battleplan Arclight",
 	"act28side": "Come Catastrophes or Wakes of Vultures",
 	"act5d0": "Code of Brawl",
 	"act10d5": "Children of Ursus",
@@ -79,6 +80,7 @@
 	"act2bossrush": "Trials for Navigator #2",
 	"act3bossrush": "Trials for Navigator #3",
 	"act4bossrush": "Trials for Navigator #4",
+	"act5bossrush": "Trials for Navigator #5",
 	"act11d0": "Twilight of Wolumonde",
 	"act30side": "The Rides to Lake Silberneherze",
 	"act16mini": "To the Grinning Valley",
@@ -94,6 +96,10 @@
 	"act41side": "When Elegies Are Ashes",
 	"act1multi": "Icebreaker Games #1",
 	"act42side": "The Masses' Travels",
-	"act1break": "Vector Breakthrough: Mechanist",
-	"act43side": "Act or Die"
+	"act1break": "Vector Breakthrough #1: Mechanist",
+	"act43side": "Act or Die",
+	"act3collection": "Integrated Lookback: Another Tides",
+	"act4collection": "Integrated Lookback: Return to the Castle",
+	"act19mini": "Fantasy in The Mirage",
+	"act44side": "Ato"
 }
