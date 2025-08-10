@@ -1,24 +1,24 @@
 {
 	"future": [
-		{ "id": "sui",         "date": [2025,  12, 11] }
+		{ "id": "is6:sui",         "date": [2025,  12, 11] }
 	],
 	"cn": [
-		{ "id": "phantom",     "date": [2022,  1,  5] },
-		{ "id": "mizuki",      "date": [2022,  9, 27] },
-		{ "id": "joklumarkar", "date": [2023,  7, 13] },
-		{ "id": "sarkaz",      "date": [2024,  7, 16] },
-		{ "id": "sui",         "date": [2025,  7, 15] }
+		{ "id": "is2:phantom",     "date": [2022,  1,  5] },
+		{ "id": "is3:mizuki",      "date": [2022,  9, 27] },
+		{ "id": "is4:joklumarkar", "date": [2023,  7, 13] },
+		{ "id": "is5:sarkaz",      "date": [2024,  7, 16] },
+		{ "id": "is6:sui",         "date": [2025,  7, 15] }
 	],
 	"en": [
-		{ "id": "phantom",     "date": [2022,  7, 14] },
-		{ "id": "mizuki",      "date": [2023,  5, 23] },
-		{ "id": "joklumarkar", "date": [2024,  3,  5] },
-		{ "id": "sarkaz",      "date": [2025,  2, 14] }
+		{ "id": "is2:phantom",     "date": [2022,  7, 14] },
+		{ "id": "is3:mizuki",      "date": [2023,  5, 23] },
+		{ "id": "is4:joklumarkar", "date": [2024,  3,  5] },
+		{ "id": "is5:sarkaz",      "date": [2025,  2, 14] }
 	],
 	"tw": [
-		{ "id": "phantom",     "date": [2022, 10, 13] },
-		{ "id": "mizuki",      "date": [2023,  7, 27] },
-		{ "id": "joklumarkar", "date": [2024,  6, 20] },
-		{ "id": "sarkaz",      "date": [2025,  5, 27] }
+		{ "id": "is2:phantom",     "date": [2022, 10, 13] },
+		{ "id": "is3:mizuki",      "date": [2023,  7, 27] },
+		{ "id": "is4:joklumarkar", "date": [2024,  6, 20] },
+		{ "id": "is5:sarkaz",      "date": [2025,  5, 27] }
 	]
 }
