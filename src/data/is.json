@@ -18,6 +18,7 @@
 	"tw": [
 		{ "id": "phantom",     "date": [2022, 10, 13] },
 		{ "id": "mizuki",      "date": [2023,  7, 27] },
-		{ "id": "joklumarkar", "date": [2024,  6, 20] }
+		{ "id": "joklumarkar", "date": [2024,  6, 20] },
+		{ "id": "sarkaz",      "date": [2025,  5, 27] }
 	]
 }
