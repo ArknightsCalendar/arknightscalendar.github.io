@@ -14,6 +14,7 @@
 	},
 	{
 		"id": "en",
+		"name": "Global",
 		"icon": "elderly",
 		"description": ["A complete timeline of the EN/JP/KR schedule."]
 	},
