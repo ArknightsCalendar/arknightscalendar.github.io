@@ -6,6 +6,7 @@
 	import { activePage, opacity, travel } from "../stores/store.js";
 	import { onMount, setContext } from "svelte";
 	import { cubicOut } from "svelte/easing";
+	import ToggleBackground from "./ToggleBackground.svelte";
 
 
 	export let page;
@@ -411,6 +412,7 @@
 	};
 </script>
 
+
 <article
 	style={$activePage === page.id ? `opacity: ${$opacity}` : undefined}
 	id={page.id}
@@ -419,9 +421,17 @@
 	on:touchmove|passive={handleTouchmove}
 	on:touchend={handleTouchend}>
 		<div>
+			<!-- toggle darkmode -->
+			<ToggleBackground>
+				Toggle Dark Mode
+			</ToggleBackground>
+		</div>
+		<div>
 			{#each page.description as description}
 				<p>{description}</p>
 			{/each}
+			
+			
 			{#each months as month}
 				<Month date={month} {eventDivs} {episodeDivs} {isDivs}/>
 			{/each}

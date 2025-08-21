@@ -41,6 +41,7 @@
 <svelte:head>
   <link rel="icon" href="{base}images/calendar.svg" />
   <link rel="preload" href="{base}images/github.svg" as="image" />
+  
 </svelte:head>
 <div class="bar">
   <nav>
@@ -51,7 +52,7 @@
   <aside>
     <a href="https://github.com/ArknightsCalendar/arknightscalendar.github.io">
     </a>
-	<ToggleBackground />
+	
   </aside>
   
   
