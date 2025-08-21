@@ -36,8 +36,14 @@ body {
 	font-weight: 500;
 	letter-spacing: -0.01em;
 	margin: 0;
+	transition: background-color 200ms ease-out;
 
 	@media (max-width: $bar-bottom) { flex-direction: column-reverse }
+
+}
+
+body.light-mode {
+	background-color: white;
 }
 
 p {

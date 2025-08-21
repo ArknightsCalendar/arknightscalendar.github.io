@@ -7,6 +7,7 @@
 	import { onMount, setContext } from "svelte";
 	import { cubicOut } from "svelte/easing";
 
+
 	export let page;
 
 	setContext("id", page.id);

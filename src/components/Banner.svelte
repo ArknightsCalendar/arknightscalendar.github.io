@@ -4,4 +4,5 @@
 
 <div class="banner">
 	{@html text}
+	
 </div>
