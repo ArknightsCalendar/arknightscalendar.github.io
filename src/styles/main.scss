@@ -18,464 +18,544 @@ $nav-sticky: 950px;
 $main-shrink: 730px;
 $bar-bottom: 600px;
 
-
 // General
-*, ::after, ::before { box-sizing: border-box }
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
 
-html, body {
-	height: 100vh;
-	height: -webkit-fill-available;
-	height: 100dvh;
+html,
+body {
+  height: 100vh;
+  height: -webkit-fill-available;
+  height: 100dvh;
 }
 
 body {
-	background-color: black;
-	display: flex;
-	font-family: $fonts;
-	font-variant-alternates: styleset(alt-a, alt-t);
-	font-weight: 500;
-	letter-spacing: -0.01em;
-	margin: 0;
-	transition: background-color 200ms ease-out;
+  background-color: black;
+  display: flex;
+  font-family: $fonts;
+  font-variant-alternates: styleset(alt-a, alt-t);
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  margin: 0;
+  transition: background-color 200ms ease-out;
 
-	@media (max-width: $bar-bottom) { flex-direction: column-reverse }
-
-}
-
-body.light-mode {
-	background-color: #f2eee2;
-	color: #000;
+  @media (max-width: $bar-bottom) {
+    flex-direction: column-reverse;
+  }
 }
 
 p {
-	color: hsl(0, 0%, 60%);
-	font-size: 0.91rem;
-	margin-top: 0;
+  color: hsl(0, 0%, 60%);
+  font-size: 0.91rem;
+  margin-top: 0;
 }
 
 @media (pointer: fine) {
-	::-webkit-scrollbar {
-		width: 10px;
-		&-thumb { background-color: $gray }
-	}
+  ::-webkit-scrollbar {
+    width: 10px;
+    &-thumb {
+      background-color: $gray;
+    }
+  }
 }
 
 .banner {
-	background-color: white;
-	border-bottom: 1px solid black;
-	font-size: 0.91rem;
-	padding: 0.4em 0.5em;
-	position: absolute;
-	text-align: center;
-	top: 0;
-	width: 100%;
-	z-index: 2;
+  background-color: white;
+  border-bottom: 1px solid black;
+  font-size: 0.91rem;
+  padding: 0.4em 0.5em;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 100%;
+  z-index: 2;
 }
-
 
 // Bar
 // Container
 .bar {
-	border-right: 1px solid #252525;
-	display: flex;
-	flex-direction: column;
-	flex: 0 0 auto;
-	gap: 1.3rem;
-	justify-content: space-between;
-	overflow: auto;
-	padding: 1rem 0.7rem;
+  border-right: 1px solid #252525;
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 auto;
+  gap: 1.3rem;
+  justify-content: space-between;
+  overflow: auto;
+  padding: 1rem 0.7rem;
 
-	@media (max-width: $bar-bottom) {
-		border-right: none;
-		border-top: 1px solid #252525;
-		padding: 0.4rem 0;
-	}
+  @media (max-width: $bar-bottom) {
+    border-right: none;
+    border-top: 1px solid #252525;
+    padding: 0.4rem 0;
+  }
 }
 
 // Navigation
 nav {
-	display: flex;
-	flex-direction: column;
-	gap: 1.1em;
-	justify-content: space-evenly;
-	z-index: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 1.1em;
+  justify-content: space-evenly;
+  z-index: 2;
 
-	@media (max-width: $bar-bottom) {
-		flex-direction: row;
-		gap: 0;
-	}
+  @media (max-width: $bar-bottom) {
+    flex-direction: row;
+    gap: 0;
+  }
 }
 
 button {
-	-webkit-tap-highlight-color: transparent;
-	background-color: transparent;
-	border-radius: 5px;
-	border: none;
-	color: white;
-	cursor: pointer;
-	font-family: $fonts;
-	font-size: 0.75rem;
-	min-width: 3.5rem;
-	padding: 0.3em 0.7em;
-	touch-action: none;
-	transition-duration: 100ms;
-	user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  background-color: transparent;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-family: $fonts;
+  font-size: 0.75rem;
+  min-width: 3.5rem;
+  padding: 0.3em 0.7em;
+  touch-action: none;
+  transition-duration: 100ms;
+  user-select: none;
 
-	&.active { cursor: initial }
+  &.active {
+    cursor: initial;
+  }
 
-	@media (pointer: fine) {
-		&:not(.active):hover {
-			background-color: #222;
-			opacity: 0.7;
-		}
-	}
+  @media (pointer: fine) {
+    &:not(.active):hover {
+      background-color: #222;
+      opacity: 0.7;
+    }
+  }
 
-	.icon {
-		background: center / contain no-repeat;
-		filter: invert(1);
-		height: 1.8em;
-		margin-bottom: 0.5em;
-		position: relative;
+  .icon {
+    background: center / contain no-repeat;
+    filter: invert(1);
+    height: 1.8em;
+    margin-bottom: 0.5em;
+    position: relative;
 
-		&.bolt { background-image: url("/images/bolt.svg") }
-		&.elderly { background-image: url("/images/elderly.svg") }
-		&.premium { background-image: url("/images/premium.svg") }
-		&.schedule { background-image: url("/images/schedule.svg") }
-	}
+    &.bolt {
+      background-image: url("/images/bolt.svg");
+    }
+    &.elderly {
+      background-image: url("/images/elderly.svg");
+    }
+    &.premium {
+      background-image: url("/images/premium.svg");
+    }
+    &.schedule {
+      background-image: url("/images/schedule.svg");
+    }
+  }
 
-	&.active .icon {
-		filter: none;
+  &.active .icon {
+    filter: none;
 
-		&.premium { background-image: url("/images/premium_filled.svg") }
-		&.schedule { background-image: url("/images/schedule_filled.svg") }
+    &.premium {
+      background-image: url("/images/premium_filled.svg");
+    }
+    &.schedule {
+      background-image: url("/images/schedule_filled.svg");
+    }
 
-		&::before {
-			animation: 150ms pillExpand;
-			background-color: white;
-			border-radius: 15px;
-			content: "";
-			height: 110%;
-			position: absolute;
-			top: 0;
-			transform: translate(-50%, -5%);
-			width: 105%;
-			z-index: -1;
-		}
-	}
+    &::before {
+      animation: 150ms pillExpand;
+      background-color: white;
+      border-radius: 15px;
+      content: "";
+      height: 110%;
+      position: absolute;
+      top: 0;
+      transform: translate(-50%, -5%);
+      width: 105%;
+      z-index: -1;
+    }
+  }
 }
 
 @keyframes pillExpand {
-	from { transform: translate(-50%, -5%) scaleX(30%) }
-	to { transform: translate(-50%, -5%) scaleX(100%) }
+  from {
+    transform: translate(-50%, -5%) scaleX(30%);
+  }
+  to {
+    transform: translate(-50%, -5%) scaleX(100%);
+  }
 }
-
 
 // Schedule
 // Wrapper
 main {
-	flex: 1 1 auto;
-	position: relative;
+  flex: 1 1 auto;
+  position: relative;
 }
 
 // Container
 article {
-	height: 100%;
-	overflow-y: auto;
-	padding: $page-margin;
-	padding-top: calc(70px - 1vw);   // Compensate for banner.
-	position: absolute;
-	top: 0;
-	width: 100%;
+  height: 100%;
+  overflow-y: auto;
+  padding: $page-margin;
+  padding-top: calc(70px - 1vw); // Compensate for banner.
+  position: absolute;
+  top: 0;
+  width: 100%;
 
-	&:not(.active) {
-		opacity: 0;
-		z-index: -10;
-	}
+  &:not(.active) {
+    opacity: 0;
+    z-index: -10;
+  }
 
-	> div {
-		width: min(100%, 600px);
-		margin: auto;
+  > div {
+    width: min(100%, 600px);
+    margin: auto;
 
-		@media (max-width: $header-vertical) { width: min(100%, 600px + 1.4rem) }
-	}
+    @media (max-width: $header-vertical) {
+      width: min(100%, 600px + 1.4rem);
+    }
+  }
 }
-
 
 // Calendar
 // Container
 section {
-	position: relative;
-	p + &:first-of-type { margin-top: 2.5rem !important }
-	&:not(:first-of-type) { margin-top: -#{$row-height}; }
-	&.no-margin { margin-top: 0 }
-	@media (max-width: $header-vertical) { margin-left: 1.4rem }
+  position: relative;
+  p + &:first-of-type {
+    margin-top: 2.5rem !important;
+  }
+  &:not(:first-of-type) {
+    margin-top: -#{$row-height};
+  }
+  &.no-margin {
+    margin-top: 0;
+  }
+  @media (max-width: $header-vertical) {
+    margin-left: 1.4rem;
+  }
 }
 
 // Header
 h1 {
-	color: white;
-	font-size: 1.1rem;
-	font-weight: inherit;
-	left: -1.2em;
-	margin: 0;
-	position: absolute;
-	text-align: right;
-	transform: translateX(-100%);
+  color: white;
+  font-size: 1.1rem;
+  font-weight: inherit;
+  left: -1.2em;
+  margin: 0;
+  position: absolute;
+  text-align: right;
+  transform: translateX(-100%);
 
-	span {
-		color: $gray;
-		display: block;
-		font-family: "Bender", $fonts;
-		font-size: 0.95rem;
-		font-weight: initial;
-		letter-spacing: initial;
-	}
+  span {
+    color: $gray;
+    display: block;
+    font-family: "Bender", $fonts;
+    font-size: 0.95rem;
+    font-weight: initial;
+    letter-spacing: initial;
+  }
 
-	@media (max-width: $header-vertical) {
-		// letter-spacing adds extra space at the end.
-		font-size: 0.9rem;
-		left: -1.5em;
-		letter-spacing: 0.3em;
-		padding-left: 0.3em;
-		text-transform: uppercase;
-		top: 50%;
-		transform: translate(-50%, -50%) rotate(-90deg);
-		white-space: nowrap;
+  @media (max-width: $header-vertical) {
+    // letter-spacing adds extra space at the end.
+    font-size: 0.9rem;
+    left: -1.5em;
+    letter-spacing: 0.3em;
+    padding-left: 0.3em;
+    text-transform: uppercase;
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(-90deg);
+    white-space: nowrap;
 
-		span {
-			display: initial;
-			font-size: 0.9rem;
-			letter-spacing: 0.2em;
-			padding-right: 0.1em;
-		}
-	}
+    span {
+      display: initial;
+      font-size: 0.9rem;
+      letter-spacing: 0.2em;
+      padding-right: 0.1em;
+    }
+  }
 }
+
 
 // Dates
 .calendar {
-	counter-reset: date;
-	display: grid;
-	grid-auto-rows: $row-height;
-	grid-template-columns: repeat(7, 1fr);
+  counter-reset: date;
+  display: grid;
+  grid-auto-rows: $row-height;
+  grid-template-columns: repeat(7, 1fr);
 
-	div {
-		color: white;
-		font-size: 0.68rem;
-		font-weight: 400;
-		grid-column-start: var(--grid-start);   // Set inline.
+  div {
+    color: white;
+    font-size: 0.68rem;
+    font-weight: 400;
+    grid-column-start: var(--grid-start); // Set inline.
 
-		&::after {
-			content: counter(date);
-			counter-increment: date;
-		}
+    &::after {
+      content: counter(date);
+      counter-increment: date;
+    }
 
-		&:first-child::after {
-			background-color: white;
-			border-radius: 50%;
-			color: initial;
-			font-weight: 700;
-			margin-left: -0.5em;
-			padding: 0.15em 0.65em;
-		}
+    &:first-child::after {
+      background-color: white;
+      border-radius: 50%;
+      color: initial;
+      font-weight: 700;
+      margin-left: -0.5em;
+      padding: 0.15em 0.65em;
+    }
 
-		
-		&[data-today="true"] {
-			color: #00ffff;
-			font-size: 0.9rem;
-			font-weight: 800;
-			text-decoration: underline overline;
-		
+    &[data-today="true"] {
+      color: #00ffff;
+      font-size: 0.9rem;
+      font-weight: 800;
+      text-decoration: underline overline;
+    }
+
+    @media (max-width: $bar-bottom) {
+      font-size: 0.6rem;
+    }
+  }
 }
-
-		@media (max-width: $bar-bottom) { font-size: 0.6rem }
-	}
-}
-
 
 // Events
 // Container
 .overlay {
-	display: grid;
-	grid-auto-rows: $row-height;
-	grid-template-columns: repeat(14, 1fr);
-	inset: 0;
-	position: absolute;
+  display: grid;
+  grid-auto-rows: $row-height;
+  grid-template-columns: repeat(14, 1fr);
+  inset: 0;
+  position: absolute;
 
-	div:not(.episode):not(.inst) {
-		-webkit-tap-highlight-color: transparent;
-		cursor: pointer;
-		font-size: 0.8rem;
-		grid-column: var(--grid-column);   // Set inline.
-		grid-row: var(--grid-row);   // Set inline.
-		height: -moz-fit-content;
-		height: fit-content;
-		overflow: hidden;
-		padding: 0.2em 0.7em;
-		position: relative;
-		scroll-margin-top: 7rem;
-		scroll-padding-top: 2rem;   // scroll-margin breaks without this?
-		text-overflow: ellipsis;
-		top: 40%;
-		white-space: nowrap;
-		z-index: 1;
+  div:not(.episode):not(.inst) {
+    -webkit-tap-highlight-color: transparent;
+    cursor: pointer;
+    font-size: 0.8rem;
+    grid-column: var(--grid-column); // Set inline.
+    grid-row: var(--grid-row); // Set inline.
+    height: -moz-fit-content;
+    height: fit-content;
+    overflow: hidden;
+    padding: 0.2em 0.7em;
+    position: relative;
+    scroll-margin-top: 7rem;
+    scroll-padding-top: 2rem; // scroll-margin breaks without this?
+    text-overflow: ellipsis;
+    top: 40%;
+    white-space: nowrap;
+    z-index: 1;
 
-		&[title] { cursor: help }
+    &[title] {
+      cursor: help;
+    }
 
-		&:empty::after { content: "\2060" }
+    &:empty::after {
+      content: "\2060";
+    }
 
-		&.top, &.bottom {
-			--radius: 10px;
-			color: transparent;
-			top: 28%;
-			transform: scaleY(0.6);
-			transition: transform 150ms, color 150ms;
-			user-select: none;
+    &.top,
+    &.bottom {
+      --radius: 10px;
+      color: transparent;
+      top: 28%;
+      transform: scaleY(0.6);
+      transition: transform 150ms, color 150ms;
+      user-select: none;
 
-			&.expand {
-				--radius: 20px;
-				color: initial;
-				transform: none;
-				user-select: initial;
-			}
-		}
+      &.expand {
+        --radius: 20px;
+        color: initial;
+        transform: none;
+        user-select: initial;
+      }
+    }
 
-		&.bottom { top: 59% }
+    &.bottom {
+      top: 59%;
+    }
 
-		&.hidden { visibility: hidden }
+    &.hidden {
+      visibility: hidden;
+    }
 
-		@media (max-width: $nav-sticky) { scroll-margin-top: 5rem }
-	}
+    @media (max-width: $nav-sticky) {
+      scroll-margin-top: 5rem;
+    }
+  }
 }
 
 .start {
-	--radius: 20px;
-	border-radius: var(--radius) 0 0 var(--radius);
-	margin-left: 0.4rem;
+  --radius: 20px;
+  border-radius: var(--radius) 0 0 var(--radius);
+  margin-left: 0.4rem;
 }
 
 .end {
-	--radius: 20px;
-	border-radius: 0 var(--radius) var(--radius) 0;
-	margin-right: 0.4rem;
-	text-align: right;
+  --radius: 20px;
+  border-radius: 0 var(--radius) var(--radius) 0;
+  margin-right: 0.4rem;
+  text-align: right;
 }
 
 @each $id, $color in $colors {
-	@include overlay($id, $color);
+  @include overlay($id, $color);
 }
 
 .permanent {
-	color: white;
-	filter: drop-shadow(0 0 0.5em rgb(0 0 0 / 80%));
-	grid-column: var(--grid-column);   // Set inline.
-	grid-row: var(--grid-row);   // Set inline.
-	place-self: center;
-	position: relative;
-	text-align: center;
-	transition-duration: 200ms;
-	z-index: 1;
+  color: white;
+  filter: drop-shadow(0 0 0.5em rgb(0 0 0 / 80%));
+  grid-column: var(--grid-column); // Set inline.
+  grid-row: var(--grid-row); // Set inline.
+  place-self: center;
+  position: relative;
+  text-align: center;
+  transition-duration: 200ms;
+  z-index: 1;
 
-	&:hover {
-		opacity: 25%;
-	}
+  &:hover {
+    opacity: 25%;
+  }
 }
 
 .episode {
-	border: 0.18em solid white;
-	font-size: 1.4rem;
-	font-weight: bold;
-	left: 0.17em;
-	line-height: 0.9;
-	padding: 0.14em 0.09em 0.07em;
-	user-select: none;
+  border: 0.18em solid white;
+  font-size: 1.4rem;
+  font-weight: bold;
+  left: 0.17em;
+  line-height: 0.9;
+  padding: 0.14em 0.09em 0.07em;
+  user-select: none;
 
-	@media (max-width: $main-shrink) {
-		font-size: calc(0.5rem + 2.3vw);
-		top: calc(1.1em - 3vw);
-	}
+  @media (max-width: $main-shrink) {
+    font-size: calc(0.5rem + 2.3vw);
+    top: calc(1.1em - 3vw);
+  }
 }
 
 .inst {
-	background: center / contain no-repeat url("/images/is.svg");
-	font-size: 0.7rem;
-	font-weight: 900;
-	height: 3.5rem;
-	left: 0.17em;
-	text-transform: uppercase;
-	width: 3.5rem;
+  background: center / contain no-repeat url("/images/is.svg");
+  font-size: 0.7rem;
+  font-weight: 900;
+  height: 3.5rem;
+  left: 0.17em;
+  text-transform: uppercase;
+  width: 3.5rem;
 
-	&::after {
-		--shadow: 0 0 0.3em rgb(0 0 0 / 100%);
-		bottom: 0.25em;
-		content: var(--name);
-		font-style: italic;
-		letter-spacing: 0.1em;
-		position: absolute;
-		text-shadow: var(--shadow), var(--shadow);
-		transform: translateX(-50%);
-	}
+  &::after {
+    --shadow: 0 0 0.3em rgb(0 0 0 / 100%);
+    bottom: 0.25em;
+    content: var(--name);
+    font-style: italic;
+    letter-spacing: 0.1em;
+    position: absolute;
+    text-shadow: var(--shadow), var(--shadow);
+    transform: translateX(-50%);
+  }
 
-	@media (max-width: $main-shrink) {
-		font-size: calc(0.35rem + 1vw);
-	}
+  @media (max-width: $main-shrink) {
+    font-size: calc(0.35rem + 1vw);
+  }
 }
 
 // Tooltip
 .tooltip {
-	opacity: 0;
-	position: absolute;
-	z-index: -1;
-	width: auto;
-	height: auto;
-	background-color: #000;
-	color: #fff;
-	padding: 5px;
-	border-radius: 5px;
-	display: flex;
-	gap: 10px;
+  opacity: 0;
+  position: absolute;
+  z-index: -1;
+  width: auto;
+  height: auto;
+  background-color: #000;
+  color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+  display: flex;
+  gap: 10px;
 }
 
 .tooltip-item {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	gap: 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
 }
 
 .tooltip-item-icon {
-	width: clamp(32px, 10vw, 64px);
-	height: clamp(32px, 10vw, 64px);
+  width: clamp(32px, 10vw, 64px);
+  height: clamp(32px, 10vw, 64px);
 }
 
 .tooltip-item-stage {
-	font-size: clamp(10px, 2.5vw, 12px);
-	color: #000;
+  font-size: clamp(10px, 2.5vw, 12px);
+  color: #000;
 }
 
 // GitHub link
 aside {
-	display: grid;
-	place-items: center;
+  display: grid;
+  place-items: center;
 
-	@media (max-width: $bar-bottom) { display: none }
+  @media (max-width: $bar-bottom) {
+    display: none;
+  }
 }
 
 a {
-	-webkit-tap-highlight-color: transparent;
-	background: center / contain no-repeat url("/images/closure.svg");
-	border-radius: 50%;
-	display: block;
-	height: 1.8rem;
-	transition: background-image 200ms ease-out, opacity 100ms;
-	width: 1.8rem;
+  -webkit-tap-highlight-color: transparent;
+  background: center / contain no-repeat url("/images/closure.svg");
+  border-radius: 50%;
+  display: block;
+  height: 1.8rem;
+  transition: background-image 200ms ease-out, opacity 100ms;
+  width: 1.8rem;
 
-	&:hover {
-		background-image: url("/images/github.svg");
-		transition-duration: 300ms;
-	}
+  &:hover {
+    background-image: url("/images/github.svg");
+    transition-duration: 300ms;
+  }
 
-	&:active {
-		opacity: 0.6;
-		transition-duration: 100ms;
-	}
+  &:active {
+    opacity: 0.6;
+    transition-duration: 100ms;
+  }
+}
+
+//light mode
+
+body.light-mode {
+  background-color: #f2eee2;
+  color: #000;
+}
+
+p.light-mode {
+  color: #666666;
+}
+
+.banner.light-mode {
+  background-color: black;
+  border-bottom: 1px solid white;
+}
+
+
+.calendar.light-mode{
+  div.light-mode {
+    color: black;
+  }
+}
+
+.episode.light-mode {
+  border: 0.18em solid black;
+}
+
+.permanent.light-mode {
+  color: black;
+}
+
+.tooltip.light-mode {
+  background-color: #fff;
+  color: #000;
+}
+
+.tooltip-item-stage.light-mode {
+  color: #fff;
 }
