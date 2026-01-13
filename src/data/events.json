@@ -1,25 +1,33 @@
 {
 	"future": {
 		"2025": [
-			{ "start": [ 7, 17], "duration": 21, "event": "act40side" },
-			{ "start": [ 8,  7], "duration":  7, "event": "act18mini" },
-			{ "start": [ 8,  7], "duration": 14, "event": "act3collection" },
-			{ "start": [ 8, 14], "duration": 14, "event": "crisis_v2_season_3_1" },
-			{ "start": [ 8, 28], "duration": 14, "event": "act41side" },
-			{ "start": [ 9,  4], "duration": 21, "event": "act1multi" },
-			{ "start": [ 9, 30], "duration": 10, "event": "act33side", "rerun": true},
-			{ "start": [10, 14], "duration": 21, "event": "act42side" },
-			{ "start": [10, 14], "duration": 14, "event": "act4collection" },
-			{ "start": [10, 30], "duration": 21, "event": "act1break" },
-			{ "start": [11, 13], "duration": 14, "event": "act43side" },
-			{ "start": [11, 20], "duration": 14, "event": "act5bossrush" },
-			{ "start": [11, 27], "duration": 10, "event": "act34side", "rerun": true },
 			{ "start": [12,  4], "duration":  7, "event": "act19mini" }
 			
 
 		],
 		"2026": [
-			{ "start": [ 1, 16], "duration": 21, "event": "act44side" }
+			{ "start": [ 1, 16], "duration": 21, "event": "act44side" },
+			{ "start": [ 1, 16], "duration": 15, "event": "act50sign" },
+			{ "start": [ 1, 16], "duration": 46, "event": "act2unique" },
+			{ "start": [ 1, 16], "duration": 15, "event": "act24login" },
+			{ "start": [ 1, 16], "duration": 15, "event": "act12pray" },
+			{ "start": [ 1, 16], "duration": 22, "event": "act44side" },
+			{ "start": [ 1, 23], "duration": 15, "event": "dis_crisisc_v2_4" },
+			{ "start": [ 2,  3], "duration": 15, "event": "act2enemyduel" },
+			{ "start": [ 2, 10], "duration": 22, "event": "act6collection" },
+			{ "start": [ 2, 10], "duration": 15, "event": "act51sign" },
+			{ "start": [ 2, 10], "duration": 15, "event": "act45side" },
+			{ "start": [ 2, 24], "duration": 11, "event": "act37sre", "rerun": true },
+			{ "start": [ 3,  6], "duration": 22, "event": "act5switch" },
+			{ "start": [ 3,  6], "duration": 11, "event": "act52sign" },
+			{ "start": [ 3,  6], "duration": 22, "event": "act1vhalfidle" },
+			{ "start": [ 3, 16], "duration":  8, "event": "act53sign" },
+			{ "start": [ 3, 19], "duration": 15, "event": "act3mainss" },
+			{ "start": [ 4,  1], "duration":  8, "event": "act1recruit" },
+			{ "start": [ 4,  1], "duration": 25, "event": "act1teamquest" },
+			{ "start": [ 4,  1], "duration": 22, "event": "act2multi" },
+			{ "start": [ 4,  1], "duration":  8, "event": "act6fun" },
+			{ "start": [ 4,  9], "duration": 11, "event": "act54sign" }
 		]
 	},
 	"cn": {
