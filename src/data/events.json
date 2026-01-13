@@ -17,7 +17,7 @@
 			{ "start": [ 2, 10], "duration": 22, "event": "act6collection" },
 			{ "start": [ 2, 10], "duration": 15, "event": "act51sign" },
 			{ "start": [ 2, 10], "duration": 15, "event": "act45side" },
-			{ "start": [ 2, 24], "duration": 11, "event": "act37sre", "rerun": true },
+			{ "start": [ 2, 24], "duration": 11, "event": "act37side", "rerun": true },
 			{ "start": [ 3,  6], "duration": 22, "event": "act5switch" },
 			{ "start": [ 3,  6], "duration": 11, "event": "act52sign" },
 			{ "start": [ 3,  6], "duration": 22, "event": "act1vhalfidle" },
