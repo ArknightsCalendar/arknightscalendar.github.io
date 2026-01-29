@@ -1,10 +1,5 @@
 {
 	"future": {
-		"2025": [
-			{ "start": [12,  4], "duration":  7, "event": "act19mini" }
-			
-
-		],
 		"2026": [
 			{ "start": [ 1, 16], "duration": 21, "event": "act44side" },
 			{ "start": [ 1, 16], "duration": 15, "event": "act50sign" },
